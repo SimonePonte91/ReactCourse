@@ -1,0 +1,67 @@
+/* COMPONENT
+Il component renderizza l'html che ci scriviamo dentro.
+
+Scriviamo più component e li innestiamo tra di loro ad "albero".
+
+E' una collection di funzioni javascrit che roducono html.
+*/
+
+/* CONST
+Quando dichiariamo una variabile con CONST, la stiamo inizializzando
+e le diamo un valore finale, immutabile nel tempo.
+
+*/
+
+/* JSX
+JSX è un subset o dialetto di javascript che ci permette di scrivere
+html dentro javascript
+*/
+
+/* ReactDOM.render
+Per renderizzare l'intera APP a video, abbiamo bisogno di un contenitore
+che sarà il cuore della nostra app(solitamente un div bootstrap).
+ed andrà renderizzato in questo modo: ReactDOM.render(<App />, document.querySelector('.container'));
+Applico il metodo render di ReactDOM, gli passo la main CONST App,
+seleziono la classe e la dichiaro.
+*/
+
+/* Arrow Function =>
+Dichiarare una funzione con la sintassi ES6.
+*/
+
+/* Class Component
+
+Una Class Component viene utilizzata ogni volta che si desidera che un componente
+abbia un certo tipo di mantenimento dei record interni, una certa abilità per essere
+consapevole di se stessa.
+Quello che è accaduto fin da quando è stato reso perché gli utenti
+stanno digitando in questo ingresso.
+
+esempio:
+class SearchBar extends Component {
+  render() {
+    return <input />;
+  }
+}
+*/
+
+/* STATE
+State è un semplice oggetto javascript presente in qualsiasi componente,
+basata sulla classe. Ogni istanza di una componente basata sulla classe ha
+un proprio elenco di stati. Inizializziamo lo stato definendo il
+costruttore e impostiamo lo stato come stato iniziale all'interno di esso.
+
+per fare l'update di uno stato si usa this.setState;
+*/
+
+/* CONSTRUCTOR
+Tutte le classi javascript hanno una funzione speciale chiamata "constructor",
+ed è la prima ed unica funzione chiamata automaticamente quando una nuova istanza
+della classe viene creata.
+*/
+
+/* SUPER(props)
+Bisogna definire un metodo che è già definito nella parent class(padre),
+ove quando viene chiamato il componente figlio, possiamo richamarne
+le funzioni dal padre con il metodo super, passandone l'attributo props
+*/
